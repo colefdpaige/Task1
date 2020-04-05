@@ -1,0 +1,77 @@
+h1,h2,h3,p{
+font-family: "Arial";
+font-size:14px;
+color:#00008B;
+}
+h1{
+color:#FF8C00;
+font-size:24px;
+background-color:#A52A2A
+}
+h2{
+font-family:"Lucida Console";
+font-size:16.8px
+}
+.Participation{
+color:white
+}
+.About{
+font-style:italic
+}
+body{
+background: #fff url("orange.jpg") no-repeat repeat;
+background-position:left;
+background-position: 50%
+}
+a:link{
+font-variant:small-caps;
+color:red;
+text-decoration:overline
+}
+a:visited{
+text-decoration:line-through;
+color:#800020;
+}
+a:hover{
+background:brown;
+}
+a:active{
+font-style:Times New Roman
+}
+a.word-link{
+background:#FFFFFF
+}
+.design-selection{
+background:#7CFC00
+}
+.list1{
+font-family:"Verdana"
+font-size:10px}
+.design-archives{
+background:
+linear-gradient(63deg, #999 23%, transparent 23%)7px 0,
+linear-gradient(63deg, transparent 74%, #999 78%),
+linear-gradient(63deg, transparent 34%, #999 58%, transparent 62%), 
+#444;
+background-size: 8px 24px
+background-repeat: repeat-x
+}
+.list2{
+font-size:14px
+}
+.zen-resources{
+background:#00FFFF
+}
+.list3{
+font-style:Bold
+font-style:Italic}
+.summary{
+line-height: 200%
+}
+.preamble{
+line-height:150%
+}
+.participation{
+line-height:50%
+}
+

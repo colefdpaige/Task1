@@ -1,0 +1,17 @@
+table,th,td {
+padding: 10px;
+width:75%
+border-collapse: collapse;
+border-style: double;
+margin-right:15%;
+margin-left:15%;
+}
+
+.box{
+height:20px;
+width:50px;
+}
+ 
+.red{
+background:#DC143C
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=0.75"/>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Cole Paige">
+		<meta name="viewport" content="width=device-width, initial-scale=0.75">
+   
+    <link rel="stylesheet" href="style_3.css">
+    <title>Table</title>
+<link rel="shortcut icon" type="image/png" href="favicon.ico">
+  </head>
+<body>
+ <table id="table">
+ <table align:"center">
+  <tr>
+    <th colspan="5"><h2>Lecture Registration</h2></th>
+  </tr>
+  <tr>
+  <form action="http://work2.eburza.hr/examples/6/sendmail.php" method="POST">
+    <td><label="name">First and Last Name:</label>
+    <br>
+<input class="form-control" type="text" id="fname" name="name" placeholder="First and Last Name" required></td>
+    <td colspan="4" rowspan="2"style="text-align:center"><label="web">Web Page:</label>
+    <br>
+<input class="form-control" type="text" id="web" name="web" placeholder="url" required></td>
+  </tr>
+  <tr>
+    <td><label="dob">Date of Birth:</label>
+    <br>
+<input class="form-control" type="text" name="dob" id="dob" placeholder="dd/mm/yyyy" required></td>
+  </tr>
+  <tr>
+    <td rowspan="4">Lecture Sign-up:</td>
+    <td style="font-weight: bold">Time</td>
+    <td style="font-weight:bold">Hall 1</td>
+    <td style="font-weight:bold">Hall 2</td>
+    <td style="font-weight:bold">Hall 3</td>
+  </tr>
+  <tr>
+    <td style="font-weight:bold">8:00 - 10:00</td>
+    <td style="text-align:center;"> 
+<input class="form-control" type=radio name="num1" value="music"><img src="music.png" alt="music" title="music" width="100"></td>
+    <td style="text-align:center;"> 
+<input class="form-control" type=radio name="num1" value="it"><img src="it.png" alt="it" title="it" width="100"></td>
+    <td style="text-align:center;"> 
+<input class="form-control" type=radio name="num1" value="physics"><img src="physics.png" alt="physics" title="physics" width="100"></td>
+  </tr>
+  <tr>
+    <td style="font-weight:bold">10:00 - 12:00</td>
+    <td style="text-align:center;"> 
+<input class="form-control" type=radio name="num2" value="gym"><img src="gym.png" alt="gym" title="gym" width="100"></td>
+    <td style="text-align:center;"> 
+<input class="form-control" type=radio name="num2" value="computer"><img src="html.png" alt="html" title="web design" width="100"></td>
+    <td style="text-align:center;"> 
+<input class="form-control" type=radio name="num2" value="biology"><img src="bio.png" alt="bio" title="biology" width="100"></td>
+  </tr>
+  <tr>
+    <td style="font-weight:bold">12:00 - 14:00</td>
+    <td style="text-align:center;"> 
+<input class="form-control" type=radio name="num3" value="history"><img src="history.png" alt="history" title="history" width="100"></td>
+    <td style="text-align:center;"> 
+<input class="form-control" type=radio name="num3" value="art"><img src="art.png" alt="art" title="art" width="100"></td>
+    <td style="text-align:center;"> 
+<input class="form-control" type=radio name="num3" value="math"><img src="math.png" alt="math" title="math" width="100"></td>
+  </tr>
+  <tr>
+    <td><label="occupation">Occupation:</label><br>
+<select id="occupation">
+  <option value="student">Student</option>
+  <option value="employed">Employed</option>
+  <option value="unemployed">Unemployed</option>
+</select></td>
+    <td colspan="4" rowspan="2"style="text-align:center;"> <label="contact">Contact Me for Future Classes Through:</label><br>
+<input class="form-control" type=radio name="contact" value="e-mail"> E-Mail
+<br><input type=radio name="contact" value="phone"> Phone <br><input type=radio name="contact" value="Written"> Written</td>
+  </tr>
+  <tr>
+    <td><label="occupation">Select the Colour of Your T-shirt:</label><br>
+    <div class="box red"></div></td>
+  </tr>
+  <tr>
+    <td colspan="4"style="text-align:center;"><input type="reset" value="Cancel"></td>
+    <td colspan="4"style="text-align:center;"><input type="submit" value="Submit"></td>
+  </tr>
+</table>
+</main>
+</body>
+</html>
